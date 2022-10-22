@@ -1,3 +1,6 @@
+# idea
+.idea/*
+# vs code
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json

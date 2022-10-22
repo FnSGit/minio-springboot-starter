@@ -1,0 +1,4 @@
+minio:
+    endpoint: http://localhost:9000
+    accessKey: V9MiUSQ3Fr9d6Q82
+    secretKey: OVP3tCXWhgCI9yLddJUjXZJgdcN23FuL
