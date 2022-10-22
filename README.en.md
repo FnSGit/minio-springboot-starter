@@ -1,22 +1,24 @@
 # minio-springboot-starter
 
 #### Description
-{**When you're done, you can delete the content in this README and update the file with details for others getting started with your repository**}
+​	make  the "minio" OSS Integrated into the springboot project.  Configure The "minioclient" automatically, and do an agreement for the basic file store operation, to make the "minio" used more simple and clear.
 
 #### Software Architecture
-Software architecture description
+- jdk17
+
+- spring-boot 2.7.4
+
+- minio 8.4.5
 
 #### Installation
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  add this maven dependency
 
 #### Instructions
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  inject the bean of "minioFileStorage"  and perform the file related operations. See also Test example.
+
+   
 
 #### Contribution
 
@@ -25,12 +27,3 @@ Software architecture description
 3.  Commit your code
 4.  Create Pull Request
 
-
-#### Gitee Feature
-
-1.  You can use Readme\_XXX.md to support different languages, such as Readme\_en.md, Readme\_zh.md
-2.  Gitee blog [blog.gitee.com](https://blog.gitee.com)
-3.  Explore open source project [https://gitee.com/explore](https://gitee.com/explore)
-4.  The most valuable open source project [GVP](https://gitee.com/gvp)
-5.  The manual of Gitee [https://gitee.com/help](https://gitee.com/help)
-6.  The most popular members  [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
