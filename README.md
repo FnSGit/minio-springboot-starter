@@ -2,7 +2,7 @@
 
 #### 介绍
 ​	在springboot项目中集成minio对象存储。自动配置minioclient，并对基本的文件存储操作做了约定封装，使用更为简单明了。
-
+gitee: https://gitee.com/FngSGitee/minio-springboot-starter
 #### 软件架构
 软件架构说明
 
