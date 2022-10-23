@@ -1,7 +1,7 @@
 # minio-springboot-starter
 
 #### Description
-​	make  the "minio" OSS Integrated into the springboot project.  Configure The "minioclient" automatically, and do an agreement for the basic file store operation, to make the "minio" used more simple and clear.
+make  the "minio" OSS Integrated into the springboot project.  Configure The "minioclient" automatically, and do an agreement for the basic file store operation, to make the "minio" used more simple and clear.
 
 * gitee: [minio-springboot-starter: springboot项目集成minio对象存储 (gitee.com)](https://gitee.com/FngSGitee/minio-springboot-starter)
 * github: [FnSGit/minio-springboot-starter (github.com)](https://github.com/FnSGit/minio-springboot-starter)
