@@ -46,7 +46,7 @@ class MinioFileStorageTest {
         File file = new File(localFile);
         String objName = "20221022-1/" + file.getName();
         FileInputStream fileInputStream = new FileInputStream(file);
-        InputStreamObject fileObject = InputStreamObject.create(objName, fileInputStream);
+        InputStreamObject fileObject = new InputStreamObject(objName, fileInputStream);
         fileObject.setSize(fileObject.getSize());
         ObjectWriteResponse objectWriteResponse = fileStorage.putStream(DEFAULT_BUCKET, fileObject);
         assertEquals(objectWriteResponse.object(), objName);
